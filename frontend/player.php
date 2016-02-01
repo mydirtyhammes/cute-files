@@ -21,7 +21,7 @@
 
 		<div class="breadcrumbs"></div>
 
-		<video class="videoplayer" source="" controls autoplay></video>
+		<video class="videoplayer" source="<?php echo $_GET["video"]; ?>" controls autoplay></video>
 
 		<div class="nothingfound">
 			<div class="nofiles"></div>
